@@ -1,0 +1,7 @@
+#README for RSA.py
+#The following Program uses the RSA cryptosystem, derived from elementary number theory 
+#specifically Fermat's little Theorem and Euler's law to give a function "encrypt(msg)" that takes as argument
+#a string of lower case letters and spaces (ex. "hello world") converts it to plaintext, then encrypts the plain text.
+#It also gives a function "decrypt(emsg)" that takes a list of encrypted characters from the encrypt function and gives
+#back the initial message. It should be understood that the "encrypt" function can be publically shared with out jepardizing
+#the security of any messages encrypted using it.
